@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Government Verified Form</h1>
+        <form id="governmentForm">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="idNumber">Government ID Number:</label>
+                <input type="text" id="idNumber" name="idNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="Aadhar Number">Aadhar Number</label>
+                <input type="password" id="aadhar" name="aadhar" required>
+            </div>
+            <div class="form-group">
+                <label for="Pan Number">Pan Number</label>
+                <input type="password" id="aadhar" name="pan" required>
+            </div>
+            <div class="form-group">
+                <label for="Experience">Working Experience</label>
+                <input type="number" id="aadhar" name="Work-experinece" required>
+            </div>
+            <div class="form-group">
+                <label for="Location">Working-Location</label>
+                <input type="text" id="Working-Location" name="Location" required>
+            </div>
+            <div class="form-group">
+                <label for="college">Graduated-From</label>
+                <input type="text" id="Graduated-From" name="Location" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Graduation:</label>
+                <input type="date" id="doG" name="doG" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error-message"></div>
+    </div>
+
+    <script src="./form.js"></script>
+</body>
+</html>
